@@ -5,8 +5,8 @@ import Button from '../Common/Button'
 export default function MyLatestWork() {
   return (
     <div className='bg-[#121212]'>     
-        <div className='text-center py-8 text-2xl md:text-4xl'>
-            <h1 className='font-semibold text-white'>My latest work</h1> 
+        <div className='text-center py-8'>
+            <h1 className='font-semibold text-white text-3xl md:text-5xl'>My latest work</h1> 
         </div>  
         <div className='flex flex-col md:grid md:grid-cols-3 mx-6 gap-4 pt-5 sm:px-0'>
             {servicesData.map((item, index)=> (
@@ -19,7 +19,7 @@ export default function MyLatestWork() {
             ))}
         </div>
         <div className='text-center pb-8'>
-            <Button className='border rounded-full mt-8 px-8 py-3 text-white items-center justify-center hover:bg-white/40 hover:transition-all hover:translate-y-[10px] duration-500 hover:scale-105'>Show More</Button>
+            <Button className='border rounded-full mt-8 px-8 py-3 text-white items-center justify-center hover:bg-white/40 hover:transition-all duration-500 hover:scale-105'>Show More</Button>
         </div>
     </div>
         

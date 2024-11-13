@@ -4,7 +4,7 @@ import servicesData from '../data'
 export default function MyServices() {
   return (
     <div className='bg-[#121212]'>     
-        <div className='text-center py-8 text-2xl md:text-4xl'>
+        <div className='text-center py-8 text-3xl md:text-5xl'>
             <h1 className='font-semibold text-white'>My Services</h1> 
         </div>  
         <div className='flex flex-col md:grid md:grid-cols-3 mx-6 gap-4 pt-5 sm:px-0'>
