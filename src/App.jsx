@@ -5,6 +5,8 @@ import Buttons from './Components/Buttons'
 import AboutMe from './Components/AboutMe'
 import Experience from './Components/Experience'
 import MyServices from './Components/MyServices'
+import MyLatestWork from './Components/MyLatestWork'
+import GetInTouch from './Components/GetInTouch'
 
 export default function App() {
   return (
@@ -15,6 +17,8 @@ export default function App() {
         <AboutMe />
         <Experience />
         <MyServices />
+        <MyLatestWork />
+        <GetInTouch />
     </div>
   )
 }
