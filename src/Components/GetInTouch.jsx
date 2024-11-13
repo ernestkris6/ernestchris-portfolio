@@ -1,5 +1,8 @@
 import React from 'react'
 import Button from '../Common/Button'
+import icon1 from '../assets/call_icon.svg';
+import icon2 from '../assets/mail_icon.svg';
+import icon3 from '../assets/location_icon.svg';
 
 export default function GetInTouch() {
   return (
@@ -14,9 +17,18 @@ export default function GetInTouch() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati assumenda rerum dicta sunt odit porro nam, velit veniam minus quaerat voluptatibus eaque itaque earum, provident nobis adipisci, placeat impedit harum!</p>
 
             <div className='text-white w-full md:w-1/2'>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+                <div className='flex items-center gap-3 pt-2'>
+                    <img className='w-6 my-4' src={icon1} alt="" />
+                    <p>(+234) - 8103695088, <br/> (+234) - 7018472054</p>
+                </div>
+                <div  className='flex items-center gap-3 pt-2'>
+                    <img className='w-6 my-4' src={icon2} alt="" />
+                    <p>ernestchris6@gmail.com</p>
+                </div>
+                <div  className='flex items-center gap-3 pt-2'>
+                    <img className='w-5 my-4' src={icon3} alt="" />
+                    <p>91B, Blue Street, Jakande Estate, Isolo Lagos.</p>
+                </div>
             </div>
             </div>
 
