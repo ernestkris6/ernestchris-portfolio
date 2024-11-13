@@ -4,6 +4,7 @@ import HeroSection from './Components/HeroSection'
 import Buttons from './Components/Buttons'
 import AboutMe from './Components/AboutMe'
 import Experience from './Components/Experience'
+import MyServices from './Components/MyServices'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Buttons />
         <AboutMe />
         <Experience />
+        <MyServices />
     </div>
   )
 }
