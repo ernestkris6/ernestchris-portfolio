@@ -3,7 +3,7 @@ import Button from '../Common/Button'
 
 export default function GetInTouch() {
   return (
-    <div className='bg-[#121212]'>
+    <div className='bg-[#121212] pb-8'>
         <div className='text-center'>
             <h1 className='text-white font-bold text-2xl md:text-4xl'>Get in touch</h1>
         </div>

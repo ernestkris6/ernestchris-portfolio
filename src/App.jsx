@@ -7,6 +7,7 @@ import Experience from './Components/Experience'
 import MyServices from './Components/MyServices'
 import MyLatestWork from './Components/MyLatestWork'
 import GetInTouch from './Components/GetInTouch'
+import Footer from './Components/Footer'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <MyServices />
         <MyLatestWork />
         <GetInTouch />
+        <Footer />
     </div>
   )
 }
