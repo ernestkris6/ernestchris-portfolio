@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import HeroSection from './Components/HeroSection'
 import Buttons from './Components/Buttons'
 import AboutMe from './Components/AboutMe'
+import Experience from './Components/Experience'
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <HeroSection />
         <Buttons />
         <AboutMe />
+        <Experience />
     </div>
   )
 }
