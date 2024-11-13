@@ -10,10 +10,11 @@ export default function Navbar() {
         </div>
 
             <ul className='hidden md:flex flex justify-around gap-8 cursor-pointer'>
-                <li className='text-white hover:text-orange-500'>HOME</li>
-                <li className='text-white hover:text-orange-500'>ABOUT</li>
-                <li className='text-white hover:text-orange-500'>PORTFOLIO</li>
-                <li className='text-white hover:text-orange-500'>CONTACT</li>
+                <li className='text-white hover:text-purple-500'>HOME</li>
+                <li className='text-white hover:text-purple-500'>ABOUT ME</li>
+                <li className='text-white hover:text-purple-500'>SERVICES</li>
+                <li className='text-white hover:text-purple-500'>PORTFOLIO</li>
+                <li className='text-white hover:text-purple-500'>CONTACT</li>
             </ul>
     
         <Button className='hidden md:flex items-center bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 py-3 px-12 rounded-full text-white  cursor-pointer hover:bg-blue-500 hover:scale-105 transition-all duration-500' >CONNECT</Button>
@@ -22,7 +23,3 @@ export default function Navbar() {
   )
 }
 
-
-{/* <p className='hidden md:flex items-center bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 py-3 px-12 rounded-full text-white  cursor-pointer hover:bg-blue-500 hover:scale-105 transition-all duration-500'>
-CONNECT
-</p> */}

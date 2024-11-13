@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Components/Navbar'
 import HeroSection from './Components/HeroSection'
 import Buttons from './Components/Buttons'
+import AboutMe from './Components/AboutMe'
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
         <Navbar />
         <HeroSection />
         <Buttons />
+        <AboutMe />
     </div>
   )
 }
