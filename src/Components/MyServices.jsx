@@ -1,5 +1,6 @@
 import React from 'react'
 import servicesData from '../data'
+import arrowicon from '../assets/arrow.svg'
 
 export default function MyServices() {
   return (
@@ -15,7 +16,7 @@ export default function MyServices() {
                     <p className='font-bold text-xl'>0{item.id}</p>
                     <h1 className='font-bold text-xl'>{item.header}</h1>
                     <p className='mt-4'>{item.body}</p>
-                    <p className='mt-4 py-2 rounded-full md:w-1/2'>{item.btn}</p>
+                    <p className='flex mt-4 py-2 gap-2 rounded-full items-center md:w-1/2'>{item.btn}<span><img className='w-4' src={arrowicon} alt="" /></span></p>
                 </div>
             ))}
         </div>
