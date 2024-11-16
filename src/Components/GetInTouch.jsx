@@ -6,7 +6,7 @@ import icon3 from '../assets/location_icon.svg';
 
 export default function GetInTouch() {
   return (
-    <div className='bg-[#121212] pb-8'>
+    <div className='bg-[#121212] pb-8 mt-[-4px]'>
         <div className='text-center mb-8'>
             <h1 className='text-white font-medium text-3xl md:text-5xl'>Get in touch</h1>
         </div>
@@ -34,7 +34,7 @@ export default function GetInTouch() {
 
 
                     {/* form */}
-        <div className='w-full md:w-1/2'>
+        <div className='w-full md:w-1/2 pb-12'>
                 <form action="">
                     <div className='flex flex-col'>
                         <label className='text-white my-2' htmlFor="name">Your Name</label>
