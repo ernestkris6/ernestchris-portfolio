@@ -47,7 +47,7 @@ export default function GetInTouch() {
                 </div>
                 <div className='flex flex-col'>
                     <label className='text-white my-2' htmlFor="name">Write your messages here</label>
-                    <textarea className='bg-[#ffffff1a] pb-32 px-2 text-white' type="text" placeholder='Enter your message...' />  
+                    <textarea className='bg-[#ffffff1a] overflow-hidden pb-32 px-2 text-white' type="text" placeholder='Enter your message...' />  
                 </div>
                     <Button className='mt-4 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 px-8 py-3 rounded-full text-white font-medium hover:transition-all duration-500 hover:scale-105'>Submit here</Button>    
                 </form>

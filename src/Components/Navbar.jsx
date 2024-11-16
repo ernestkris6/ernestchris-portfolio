@@ -7,7 +7,7 @@ import logo from '../assets/chris.png'
 
 export default function Navbar() {
 
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   function handleClick(){
       setIsOpen((is) => !is)
@@ -29,14 +29,14 @@ export default function Navbar() {
     
         <Button className='hidden lg:flex items-center bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 py-3 px-12 rounded-full text-white  cursor-pointer hover:bg-blue-500 hover:scale-105 transition-all duration-500' >CONNECT</Button>
       
-        <div className='absolute right-[18px] top-[28px] bottom-0 lg:hidden'>
+        <div className='absolute cursor-pointer right-[18px] top-[28px] bottom-0 lg:hidden'>
           <img className='w-7' src={bar} onClick={handleClick} alt="" />
         </div>
        
 
         {/* Mobile menu */}
         <div className={`${isOpen ? 'fixed w-full' : 'h-0 w-0'} lg:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}>
-            <div className='flex items-center justify-between py-4'>
+            <div className='flex items-center cursor-pointer justify-between py-4'>
               <img className='w-32 ml-4' src={logo} alt="" />
               <img className='mr-4 w-6' src={cross} onClick={handleClick} alt="" />
             </div>
