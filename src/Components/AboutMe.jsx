@@ -14,15 +14,29 @@ export default function AboutMe() {
                 fuga modi. Explicabo 
                 cum enim ipsam tenetur 
                 distinctio debitis saepe incidunt?</p> 
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Vero, aspernatur expedita delectus beatae nobis tempore 
-                  aliquid omnis voluptatem repellat reprehenderit distinctio commodi aut incidunt harum, 
-                  repudiandae ipsam quam assumenda exercitationem?
-                </p>
-                <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sit omnis laborum architecto nulla dignissimos 
-                  assumenda minus iusto, rem veniam repellat explicabo repudiandae quis vero 
-                  praesentium, odio accusamus, quae perspiciatis.</p>
+                <div className=''>
+                  <p>HTML & CSS</p>
+                  <hr className='w-[90%]' />
+                </div>
+                <div>
+                  <p>React JS</p>
+                  <hr className='w-[85%]'/>
+                </div>
+
+                <div>
+                  <p>Javascript</p>
+                  <hr className='w-[80%]'/>
+                </div>
+
+                <div>
+                  <p>Next JS</p>
+                  <hr className='w-[60%]'/>
+                </div>
+                <div>
+                  <p>Wordpress</p>
+                  <hr className='w-[84%]'/>
+                </div>          
+
             </div>
         </div>
     </div>
