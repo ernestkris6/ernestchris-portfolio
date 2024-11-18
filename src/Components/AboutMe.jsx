@@ -1,6 +1,6 @@
 import React from 'react';
 import profile from '../assets/profile_pic.png';
-import theme from '../assets/theme.svg;';
+import theme from '../assets/theme.svg'
 
 
 
