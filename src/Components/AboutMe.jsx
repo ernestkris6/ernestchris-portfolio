@@ -20,27 +20,27 @@ export default function AboutMe() {
                 cum enim ipsam tenetur 
                 distinctio debitis saepe incidunt?</p> 
 
-                <div className='flex pt-12 gap-[20px] items-center transition-all'>
+                <div className='flex pt-12 gap-[20px] items-center'>
                   <p className='min-w-[150px] text-medium font-bold'>HTML & CSS </p>
-                  <hr className='w-[90%] outline-none border-none h-8 rounded-lg h-0.5 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500' />
+                  <hr className='w-[90%] cursor-pointer hover:translate-x-[30px] transition-all duration-500 outline-none border-none h-8 rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500' />
                 </div>
-                <div className='flex gap-[20px] items-center transition-all'>
+                <div className='flex gap-[20px] items-center'>
                   <p className='min-w-[150px] text-medium font-bold'>React JS</p>
-                  <hr className='w-[80%] outline-none border-none h-8 rounded-lg h-0.5 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
+                  <hr className='w-[80%] cursor-pointer hover:translate-x-[30px] transition-all duration-500 outline-none border-none h-8 rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
                 </div>
 
-                <div className='flex gap-[20px] items-center transition-all'>
+                <div className='flex gap-[20px] items-center'>
                   <p className='min-w-[150px] text-medium font-bold'>Javascript</p>
-                  <hr className='w-[70%] outline-none border-none h-8 rounded-lg h-0.5 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
+                  <hr className='w-[70%] cursor-pointer hover:translate-x-[30px] transition-all duration-500 outline-none border-none h-8 rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
                 </div>
 
-                <div className='flex gap-[20px] items-center transition-all'>
+                <div className='flex gap-[20px] items-center'>
                   <p className='min-w-[150px] text-medium font-bold'>Next JS</p>
-                  <hr className='w-[60%] outline-none border-none h-8 rounded-lg h-0.5 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
+                  <hr className='w-[60%] cursor-pointer hover:translate-x-[30px] transition-all duration-500 outline-none border-none h-8 rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
                 </div>
-                <div className='flex gap-[20px] items-center transition-all'>
+                <div className='flex gap-[20px] items-center'>
                   <p className='min-w-[150px] text-medium font-bold'>Wordpress</p>
-                  <hr className='w-[84%] outline-none border-none h-8 rounded-lg h-0.5 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
+                  <hr className='w-[84%] cursor-pointer hover:translate-x-[30px] transition-all duration-500 outline-none border-none h-8 rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
                 </div>          
 
             </div>
