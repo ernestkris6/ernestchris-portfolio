@@ -4,7 +4,7 @@ import arrowicon from '../assets/arrow.svg'
 
 export default function MyServices() {
   return (
-    <div className='bg-[#121212]'>     
+    <div id='services' className='bg-[#121212]'>     
         <div className='text-center py-8 text-3xl md:text-5xl'>
             <h1 className='font-semibold text-white'>My Services</h1> 
         </div>  

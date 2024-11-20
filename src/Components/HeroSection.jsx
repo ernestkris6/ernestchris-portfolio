@@ -1,6 +1,6 @@
 import React from 'react'
 import profile from '../assets/profile_pic.png'
-import Button from '../Common/Button'
+// import Button from '../Common/Button'
 
 export default function HeroSection() {
   return (
@@ -16,6 +16,4 @@ export default function HeroSection() {
   )
 }
 
-<p className='hidden md:'>
-CONNECT
-</p>
+

@@ -4,7 +4,7 @@ import Button from '../Common/Button'
 
 export default function MyLatestWork() {
   return (
-    <div className='bg-[#121212]'>     
+    <div id='works' className='bg-[#121212]'>     
         <div className='text-center py-8'>
             <h1 className='font-semibold text-white text-3xl md:text-5xl'>My latest work</h1> 
         </div>  

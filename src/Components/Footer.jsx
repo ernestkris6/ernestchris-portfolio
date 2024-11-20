@@ -29,6 +29,7 @@ export default function Footer() {
             <p>Privacy policy</p>
             <p>Connect with me</p>
           </div>
+            <p className='bg-purple-700 rounded px-2 cursor-pointer' onClick={()=> scrollTo(0,0)}>Back to top</p>
         </div>
         <div>
         
