@@ -20,7 +20,7 @@ export default function Navbar() {
             <img className='w-32 h-12 md:w-44 cursor-pointer' src={chris} alt="kris img" />
         </div>
             <ul className='hidden lg:flex flex justify-around gap-8 cursor-pointer'>
-                <a href="#connect" className='text-white hover:text-purple-500'>HOME</a>
+                <a href="/" className='text-white hover:text-purple-500'>HOME</a>
                 <a href="#about" className='text-white hover:text-purple-500'>ABOUT ME</a>
                 <a href="#services" className='text-white hover:text-purple-500'>SERVICES</a>
                 <a href="#works" className='text-white hover:text-purple-500'>PORTFOLIO</a>
