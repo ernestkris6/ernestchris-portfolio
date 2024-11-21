@@ -12,7 +12,7 @@ export default function MyServices() {
             {servicesData.map((item, index)=> (
                 <div 
                 key={index} 
-                className='border border-blue-200 rounded-md overflow-hidden px-8 py-10 cursor-pointer hover:translate-y-[-10px] transition-all duration-500 text-white hover:bg-gradient-to-b from-red-500 via-orange-500 to-purple-500'>
+                className='border border-blue-200 rounded-md overflow-hidden px-4 py-6 cursor-pointer hover:translate-y-[-10px] transition-all duration-500 text-white hover:bg-gradient-to-b from-red-500 via-orange-500 to-purple-500'>
                     <p className='font-bold text-xl'>0{item.id}</p>
                     <h1 className='font-bold text-xl'>{item.header}</h1>
                     <p className='mt-4'>{item.body}</p>
