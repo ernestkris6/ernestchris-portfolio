@@ -43,7 +43,7 @@ export default function Navbar() {
               <img className='mr-4 w-6' src={cross} onClick={handleClick} alt="" />
             </div>
               <ul className='flex flex-col items-center gap-2 mt-5 text-lg font-medium'>
-                <li className='hover:bg-purple-500 px-4 py-2 rounded inline-block' onClick={handleClick} to='/'><p className='px-2 rounded inline-block'>HOME</p></li>
+                <a className='hover:bg-purple-500 cursor-pointer px-4 py-2 rounded inline-block' onClick={handleClick} to='/'><p className='px-2 rounded inline-block'>HOME</p></a>
                 <a href='#about'  onClick={handleClick} to='doctors'><p className='hover:bg-purple-500 px-4 py-2 rounded inline-block'>ABOUT ME</p></a>
                 <a href='#services' onClick={handleClick} to='about'><p className='hover:bg-purple-500 px-4 py-2 rounded inline-block'>SERVICES</p></a>
                 <a href='#works' onClick={handleClick} to='contact'><p className='hover:bg-purple-500 px-4 py-2 rounded inline-block'>PORTFOLIO</p></a>
