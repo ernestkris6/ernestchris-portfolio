@@ -15,7 +15,7 @@ export default function Navbar() {
 
 
   return (
-    <div className='flex justify-between items-center py-6 mb-5 mx-2 sm:mx-[10%]'>
+    <nav className='flex justify-between items-center py-6 mb-5 mx-2 sm:mx-[10%]'>
         <div>
             <img className='w-32 h-12 md:w-44 cursor-pointer' src={chris} alt="kris img" />
         </div>
@@ -51,7 +51,7 @@ export default function Navbar() {
                 <a href='#connect' onClick={handleClick} to='login'><p className='hover:bg-purple-500 px-4 py-2 rounded inline-block'>CONNECT</p></a>
               </ul>
         </div>
-    </div>
+    </nav>
    
   )
 }
