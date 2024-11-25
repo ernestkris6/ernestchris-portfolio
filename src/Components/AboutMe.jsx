@@ -9,7 +9,7 @@ export default function AboutMe() {
     <section id='about' className='bg-[#121212] text-white mt-[-2px] pt-8'>
         <div className=''>
         <h1 className='text-center font-medium text-3xl md:text-5xl'>About Me</h1>
-        <img className='w-24 z-20 my-[-24px] mx-auto' src={theme} alt="" />
+        <img className='w-24 my-[-24px] mx-auto' src={theme} alt="" />
         </div>
         {/* z-[-1] left-0 bottom-0 top-0 right-0 */}
        <div className='flex justify-center pt-6 gap-4 pb-4'>
