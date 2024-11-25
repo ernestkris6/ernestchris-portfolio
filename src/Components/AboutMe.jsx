@@ -15,7 +15,7 @@ export default function AboutMe() {
        <div className='flex justify-center pt-6 gap-4 pb-4'>
             <img className='hidden md:flex rounded-lg' src={profile} alt="" />
             <div className='w-full md:w-2/4 ml-2 mr-2'>
-               <p className='text-white'>Lorem ipsum dolor sit amet consectetur 
+               <p className='text-white'>I am a software developer and i develop websites user friendly and highly responsive and optimize websites. Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Mollitia repudiandae iusto quia 
                 earum doloremque quos, veritatis atque! Qui cupiditate 
                 fuga modi. Explicabo 
