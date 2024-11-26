@@ -6,7 +6,7 @@ import theme from '../assets/theme.svg'
 
 export default function AboutMe() {
   return (
-    <section id='about' className='bg-[#121212] text-white mt-[-2px] pt-8'>
+    <section id='about' className='text-white mt-[-2px] pt-8'>
         <div className=''>
           <h1 className='relative text-center font-medium text-3xl md:text-5xl'>About Me</h1>
           <img className='w-24 z-[-1] my-[-24px] pb-8 mx-auto' src={theme} alt="" />

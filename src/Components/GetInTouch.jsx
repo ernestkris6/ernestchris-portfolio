@@ -6,7 +6,7 @@ import icon3 from '../assets/location_icon.svg';
 
 export default function GetInTouch() {
   return (
-    <div id='connect' className='bg-[#121212] pb-8 mt-[-4px]'>
+    <div id='connect' className='pb-8 mt-[-4px] mx-[1px] md:mx-[10%]'>
         <div className='text-center mb-8'>
             <h1 className='text-white font-medium text-3xl md:text-5xl'>Get in touch</h1>
         </div>

@@ -4,7 +4,7 @@ import profile from '../assets/profile_pic.png'
 
 export default function HeroSection() {
   return (
-    <section id='/' className='hero bg-[#121212]'>
+    <section id='/' className='hero'>
         <div className='flex m-auto justify-center items-center py-8'>
             <img className='rounded-full' src={profile} alt="" />
         </div>

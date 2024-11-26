@@ -4,7 +4,7 @@ import Button from '../Common/Button';
 
 export default function Footer() {
   return (
-    <div className='bg-[#121212] mt-[-4px]'>
+    <div className='mt-[-4px]'>
       <div className='flex justify-between'>
         <div className='flex flex-col mb-6'>
         <img className='h-12 w-32 mt-2 ml-6 mb-2' src={logo} alt="" />

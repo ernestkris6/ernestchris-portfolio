@@ -5,7 +5,7 @@ import arrowicon from '../assets/arrow.svg'
 export default function MyServices() {
     
   return (
-    <div id='services' className='bg-[#121212] mx-[1px] md:mx-[10%]'>     
+    <div id='services' className='mx-[1px] md:mx-[10%]'>     
         <div className='text-center py-8 text-3xl md:text-5xl'>
             <h1 className='font-semibold text-white'>My Services</h1> 
         </div>  
@@ -13,10 +13,10 @@ export default function MyServices() {
             {servicesData.map((item, index)=> (
                 <div 
                 key={index} 
-                className='border border-blue-200 rounded-md overflow-hidden px-4 py-6 cursor-pointer hover:translate-y-[-10px] transition-all duration-500 text-white hover:bg-gradient-to-b from-red-500 via-orange-500 to-purple-500'>
-                    <p className='font-bold text-xl'><span>0{item.id}</span></p>
-                    <h1 className='font-bold text-xl'>{item.header}</h1>
-                    <p className='mt-4'>{item.body}</p>
+                className='services border rounded-md overflow-hidden px-4 py-6 cursor-pointer transition-all duration-500 text-white'>
+                    <p className='font-bold text-xl'>0{item.id}</p>
+                    <h1 className='font-bold text-xl'><span>{item.header}</span></h1>
+                    <p className='mt-4 max-w-[300px]'>{item.body}</p>
                     <p className='flex mt-4 py-2 gap-2 rounded-full items-center md:w-1/2'>{item.btn}<span><img className='w-4' src={arrowicon} alt="" /></span></p>
                 </div>
             ))}
