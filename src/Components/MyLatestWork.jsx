@@ -5,7 +5,7 @@ import mywork_data from '../works'
 
 export default function MyLatestWork() {
   return (
-    <div id='works' className='bg-[#121212]'>     
+    <div id='works' className='bg-[#121212] mx-[1px] md:mx-[10%]'>     
         <div className='text-center py-8'>
             <h1 className='font-semibold text-white text-3xl md:text-5xl'>My latest work</h1> 
         </div>  
