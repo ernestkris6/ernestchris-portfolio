@@ -8,8 +8,8 @@ export default function AboutMe() {
   return (
     <section id='about' className='bg-[#121212] text-white mt-[-2px] pt-8'>
         <div className=''>
-        <h1 className='text-center font-medium text-3xl md:text-5xl'>About Me</h1>
-        <img className='w-24 my-[-24px] mx-auto' src={theme} alt="" />
+          <h1 className='relative text-center font-medium text-3xl md:text-5xl'>About Me</h1>
+          <img className='w-24 z-[-1] my-[-24px] pb-8 mx-auto' src={theme} alt="" />
         </div>
         {/* z-[-1] left-0 bottom-0 top-0 right-0 */}
        <div className='flex justify-center pt-6 gap-4 pb-4'>
@@ -22,27 +22,27 @@ export default function AboutMe() {
                 cum enim ipsam tenetur 
                 distinctio debitis saepe incidunt?</p> 
 
-                <div className='flex pt-12 gap-[20px] items-center'>
+                <div className='flex pt-12 gap-[20px] items-center cursor-pointer md:hover:translate-x-[30px] transition-all duration-500'>
                   <p className='min-w-[150px] text-medium font-bold'>HTML & CSS </p>
-                  <hr className='w-[90%] cursor-pointer hover:translate-x-[30px] transition-all duration-500 outline-none border-none rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500' />
+                  <hr className='w-[90%] outline-none border-none rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500' />
                 </div>
-                <div className='flex gap-[20px] items-center'>
+                <div className='flex gap-[20px] items-center cursor-pointer md:hover:translate-x-[30px] transition-all duration-500'>
                   <p className='min-w-[150px] text-medium font-bold'>React JS</p>
-                  <hr className='w-[80%] cursor-pointer hover:translate-x-[30px] transition-all duration-500 outline-none border-none rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
+                  <hr className='w-[68%] outline-none border-none rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
                 </div>
 
-                <div className='flex gap-[20px] items-center'>
+                <div className='flex gap-[20px] items-center cursor-pointer md:hover:translate-x-[30px] transition-all duration-500'>
                   <p className='min-w-[150px] text-medium font-bold'>Javascript</p>
-                  <hr className='w-[70%] cursor-pointer hover:translate-x-[30px] transition-all duration-500 outline-none border-none rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
+                  <hr className='w-[70%] outline-none border-none rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
                 </div>
 
-                <div className='flex gap-[20px] items-center'>
+                <div className='flex gap-[20px] items-center cursor-pointer md:hover:translate-x-[30px] transition-all duration-500'>
                   <p className='min-w-[150px] text-medium font-bold'>Next JS</p>
-                  <hr className='w-[60%] cursor-pointer hover:translate-x-[30px] transition-all duration-500 outline-none border-none rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
+                  <hr className='w-[60%] outline-none border-none rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
                 </div>
-                <div className='flex gap-[20px] items-center'>
-                  <p className='min-w-[150px] text-medium font-bold'>Wordpress</p>
-                  <hr className='w-[84%] cursor-pointer hover:translate-x-[30px] transition-all duration-500 outline-none border-none rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
+                <div className='flex gap-[20px] items-center cursor-pointer md:hover:translate-x-[30px] transition-all duration-500'>
+                  <p className='min-w-[150px] text-medium font-bold cursor-pointer hover:translate-x-[30px] transition-all duration-500'>Wordpress</p>
+                  <hr className='w-[84%] outline-none border-none rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500'/>
                 </div>          
 
             </div>

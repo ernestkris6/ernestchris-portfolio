@@ -13,7 +13,7 @@ export default function GetInTouch() {
 
         <div className='flex flex-col mx-6 md:flex-row md:gap-8'>          
             <div className='text-white w-full md:w-1/2'>
-                <h1 className='text-white font-semibold text-3xl  md:text-5xl pb-6'>Let's talk...</h1>
+                <h1 className='text-white font-semibold text-3xl  md:text-5xl pb-6'><span>Let's talk...</span></h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati assumenda rerum dicta sunt odit porro nam, velit veniam minus quaerat voluptatibus eaque itaque earum, provident nobis adipisci, placeat impedit harum!</p>
 
             <div className='text-white w-full md:w-1/2'>

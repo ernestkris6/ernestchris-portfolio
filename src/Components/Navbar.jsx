@@ -29,7 +29,7 @@ export default function Navbar() {
     
         {/* <Button href="#connect" className='hidden lg:flex items-center bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 py-3 px-12 rounded-full text-white  cursor-pointer hover:bg-blue-500 hover:scale-105 transition-all duration-500' >CONNECT</Button> */}
 
-        <a href="#connect" className='hidden lg:flex items-center bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 py-3 px-12 rounded-full text-white  cursor-pointer hover:bg-blue-500 hover:scale-105 transition-all duration-500'>CONNECT</a>
+        <a href="#connect" className='hidden lg:flex items-center bg-gradient-to-r from-[#B415FF] to-[#DF8908] py-3 px-12 rounded-full text-white  cursor-pointer hover:bg-blue-500 hover:scale-105 transition-all duration-500'>CONNECT</a>
       
         <div className='absolute cursor-pointer right-[18px] top-[28px] bottom-0 lg:hidden'>
           <img className='w-7' src={bar} onClick={handleClick} alt="" />
