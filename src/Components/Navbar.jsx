@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import chris from '../assets/chris.png';
-import Button from '../Common/Button';
 import cross from '../assets/menu_close.svg';
 import bar from '../assets/menu_open.svg'
 import logo from '../assets/chris.png'
@@ -26,8 +25,7 @@ export default function Navbar() {
                 <a href="#works" className='text-white hover:text-purple-500'>PORTFOLIO</a>
                 <a href="#connect" className='text-white hover:text-purple-500'>CONTACT</a>
             </ul>
-    
-        {/* <Button href="#connect" className='hidden lg:flex items-center bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 py-3 px-12 rounded-full text-white  cursor-pointer hover:bg-blue-500 hover:scale-105 transition-all duration-500' >CONNECT</Button> */}
+  
 
         <a href="#connect" className='hidden lg:flex items-center bg-gradient-to-r from-[#B415FF] to-[#DF8908] py-3 px-12 rounded-full text-white  cursor-pointer hover:bg-blue-500 hover:scale-105 transition-all duration-500'>CONNECT</a>
       
