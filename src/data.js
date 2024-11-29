@@ -8,35 +8,35 @@ const servicesData = [
     },
     {
         id: 2,
-        header: "Web design",
+        header: "Content writing",
         body: "Web development in the process of building...",
         btn: "Read More"
 
     },
     {
         id: 3,
-        header: "Web design",
+        header: "Graphics Design",
         body: "Web development in the process of building...",
         btn: "Read More"
 
     },
     {
         id: 4,
-        header: "Web design",
+        header: "Search Engine Optimization",
         body: "Web development in the process of building...",
         btn: "Read More"
 
     }, 
     {
         id: 5,
-        header: "Web design",
+        header: "Debugging",
         body: "Web development in the process of building...",
         btn: "Read More"
 
     },
     {
         id: 6,
-        header: "Web design",
+        header: "Web Development Training",
         body: "Web development in the process of building...",
         btn: "Read More"
 
