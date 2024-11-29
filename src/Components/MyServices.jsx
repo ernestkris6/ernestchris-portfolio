@@ -7,7 +7,7 @@ export default function MyServices() {
   return (
     <div id='services' className='mx-[1px] md:mx-[10%]'>     
         <div className='text-center py-8 text-3xl md:text-5xl'>
-            <h1 className='font-semibold text-white'>My Services</h1> 
+            <h1 className='font-semibold text-white pt-12'>My Services</h1> 
         </div>  
         <div className='flex flex-col md:grid md:grid md:grid-cols-[1fr_1fr] lg:grid-cols-[1fr_1fr_1fr] mx-6 gap-4 pt-5 sm:px-0'>
             {servicesData.map((item, index)=> (
