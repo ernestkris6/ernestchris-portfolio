@@ -40,8 +40,8 @@ const servicesData = [
         body: "Web development in the process of building...",
         btn: "Read More"
 
-    },
+    }
 
-]
+] 
 
 export default servicesData;
