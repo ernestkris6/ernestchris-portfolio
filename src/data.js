@@ -41,12 +41,7 @@ const servicesData = [
         btn: "Read More"
 
     },
-    {
-        id: 7,
-        header: "Web Development Training",
-        body: "Web development in the process of building...",
-        btn: "Read More"   
-    }
+
 ]
 
 export default servicesData;
