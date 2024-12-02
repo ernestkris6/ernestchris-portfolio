@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Button from '../Common/Button'
 import icon1 from '../assets/call_icon.svg';
 import icon2 from '../assets/mail_icon.svg';
 import icon3 from '../assets/location_icon.svg';
 
 export default function GetInTouch() {
+
+    const [name, setName] = useState("")
+    const [email, setEmail] = useState("")
+
+
+
   return (
     <div id='connect' className='pb-8 mt-[-4px] mx-[1px] md:mx-[10%]'>
         <div className='text-center mb-8'>
