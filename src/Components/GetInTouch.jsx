@@ -8,6 +8,7 @@ export default function GetInTouch() {
 
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
+    const [body, setBody] = useState("")
 
 
 
@@ -44,16 +45,16 @@ export default function GetInTouch() {
                 <form action="">
                     <div className='flex flex-col'>
                         <label className='text-white my-2' htmlFor="name">Your Name</label>
-                        <input className='bg-[#ffffff1a] py-2 px-2 text-white' type="text" required placeholder='Enter your name' />
+                        <input value={name} onChange={(e)=> setName(e.target.value)} className='bg-[#ffffff1a] py-2 px-2 text-white' type="text" required placeholder='Enter your name' />
                     </div>
 
                 <div className='flex flex-col'>
                     <label className='text-white my-2' htmlFor="email">Your Email</label>
-                    <input className='bg-[#ffffff1a] py-2 px-2 text-white' type="email" required placeholder='Enter your email' />
+                    <input value={email} onChange={(e)=> setEmail(e.target.value)} className='bg-[#ffffff1a] py-2 px-2 text-white' type="email" required placeholder='Enter your email' />
                 </div>
                 <div className='flex flex-col'>
                     <label className='text-white my-2' htmlFor="name">Write your messages here</label>
-                    <textarea className='bg-[#ffffff1a] overflow-hidden pb-32 px-2 text-white' type="text" placeholder='Enter your message...' />  
+                    <textarea value={body} onChange={(e)=> setBody(e.target.value)} className='bg-[#ffffff1a] overflow-hidden pb-32 px-2 text-white' type="text" placeholder='Enter your message...' />  
                 </div>
                     <Button className='mt-4 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 px-8 py-3 rounded-full text-white font-medium hover:transition-all duration-500 hover:scale-105'>Submit here</Button>    
                 </form>
