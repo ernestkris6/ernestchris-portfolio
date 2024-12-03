@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 import Button from '../Common/Button';
@@ -12,6 +12,9 @@ const publicKey = 'nMr5-Phv0tKbL9bzk';
 
 export default function GetInTouch() {
 
+    const [sent, setSent] = useState('')
+    const [notSent, setNotSent] = useState('')
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -23,9 +26,13 @@ export default function GetInTouch() {
       })
       .then(
         () => {
+            setSent('success')
+            // alert('success')
           console.log('SUCCESS!');
         },
         (error) => {
+            setNotSent('FAILED...', error.text)
+            // alert('FAILED...', error.text)
           console.log('FAILED...', error.text);
         },
       );
@@ -80,7 +87,10 @@ export default function GetInTouch() {
                 </div>
                     <Button type="submit" className='mt-4 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 px-8 py-3 rounded-full text-white font-medium hover:transition-all duration-500 hover:scale-105'>Submit here</Button>    
                 </form>
+                {sent && <p style={{color: 'white'}}>Email sent successfully</p>}
+                {notSent && <p style={{color: 'white'}}>Email not sent</p>}  
             </div>
+            
         </div>
     </div>
   )
