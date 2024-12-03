@@ -1,14 +1,36 @@
-import React, { useState } from 'react'
-import Button from '../Common/Button'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+import Button from '../Common/Button';
 import icon1 from '../assets/call_icon.svg';
 import icon2 from '../assets/mail_icon.svg';
 import icon3 from '../assets/location_icon.svg';
 
+const serviceId = 'service_qlrkj9q';
+const tempId = 'template_b1c6izo';
+const publicKey = 'nMr5-Phv0tKbL9bzk';
+
 export default function GetInTouch() {
 
-    const [name, setName] = useState("")
-    const [email, setEmail] = useState("")
-    const [body, setBody] = useState("")
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(`${serviceId}`, `${tempId}`, form.current, {
+        publicKey: `${publicKey}`,
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
 
 
 
@@ -42,19 +64,19 @@ export default function GetInTouch() {
 
                     {/* form */}
         <div className='w-full md:w-1/2 pb-12'>
-                <form action="">
+                <form ref={form} onSubmit={sendEmail}>
                     <div className='flex flex-col'>
                         <label className='text-white my-2' htmlFor="name">Your Name</label>
-                        <input value={name} onChange={(e)=> setName(e.target.value)} className='bg-[#ffffff1a] py-2 px-2 text-white' type="text" required placeholder='Enter your name' />
+                        <input className='bg-[#ffffff1a] py-2 px-2 text-white' type="text" name='from_name' required placeholder='Enter your name' />
                     </div>
 
                 <div className='flex flex-col'>
                     <label className='text-white my-2' htmlFor="email">Your Email</label>
-                    <input value={email} onChange={(e)=> setEmail(e.target.value)} className='bg-[#ffffff1a] py-2 px-2 text-white' type="email" required placeholder='Enter your email' />
+                    <input className='bg-[#ffffff1a] py-2 px-2 text-white' type="email" name='from_email' required placeholder='Enter your email' />
                 </div>
                 <div className='flex flex-col'>
                     <label className='text-white my-2' htmlFor="name">Write your messages here</label>
-                    <textarea value={body} onChange={(e)=> setBody(e.target.value)} className='bg-[#ffffff1a] overflow-hidden pb-32 px-2 text-white' type="text" placeholder='Enter your message...' />  
+                    <textarea className='bg-[#ffffff1a] overflow-hidden pb-32 px-2 text-white' name='message' type="text" placeholder='Enter your message...' />  
                 </div>
                     <Button type="submit" className='mt-4 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 px-8 py-3 rounded-full text-white font-medium hover:transition-all duration-500 hover:scale-105'>Submit here</Button>    
                 </form>
