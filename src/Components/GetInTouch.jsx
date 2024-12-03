@@ -1,9 +1,7 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-
 import Button from '../Common/Button';
 import icon1 from '../assets/call_icon.svg';
 import icon2 from '../assets/mail_icon.svg';
@@ -87,7 +85,7 @@ export default function GetInTouch() {
                     <label className='text-white my-2' htmlFor="name">Write your messages here</label>
                     <textarea className='bg-[#ffffff1a] overflow-hidden pb-32 px-2 text-white' name='message' type="text" placeholder='Enter your message...' />  
                 </div>
-                    <Button type="submit" className='mt-4 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 px-8 py-3 rounded-full text-white font-medium hover:transition-all duration-500 hover:scale-105'>Submit here</Button>    
+                    <Button className='mt-4 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 px-8 py-3 rounded-full text-white font-medium hover:transition-all duration-500 hover:scale-105'>Submit here</Button>    
                 </form> 
             </div>
             <ToastContainer />

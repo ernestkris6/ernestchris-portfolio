@@ -13,7 +13,7 @@ export default function MyLatestWork() {
         <div className='flex flex-col md:grid md:grid-cols-[1fr_1fr] lg:grid-cols-[1fr_1fr_1fr] mx-6 gap-4 pt-5 sm:px-0'>
             {mywork_data.map((item, index)=> (
                 <div className='overflow-hidden px-8 cursor-pointer hover:translate-y-[-10px] transition-all duration-500 text-white' key={index}>
-                    <p className='font-bold text-xl'>0{item.no}</p>
+                    {/* <p className='font-bold text-xl'>0{item.no}</p> */}
                     <img className='font-bold text-xl' src={item.img} alt=''/>
                     {/* <p className='mt-4'>{item.body}</p>
                     <p className='mt-4 py-2 rounded-full md:w-1/2'>{item.btn}</p> */}
