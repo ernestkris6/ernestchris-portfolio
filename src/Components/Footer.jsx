@@ -12,7 +12,7 @@ export default function Footer() {
 
           <div className='px-6'>
             <form className=''>
-              <input className='bg-[#ffffff1a] text-white py-2 px-2 rounded-full' type="text" placeholder='Enter your name'/>
+              <input className='bg-[#ffffff1a] mt-2 text-white py-2 px-2 rounded-full' type="text" placeholder='Enter your name'/>
               <Button className='mt-4 ml-1.5 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500 px-8 py-2 rounded-full mb-8 text-white font-medium hover:transition-all duration-500 hover:scale-105'>Subscribe</Button>
             </form>
           </div>
@@ -25,7 +25,7 @@ export default function Footer() {
 
         <div className='flex flex-row text-white md:flex-row mx-6 pb-8 justify-between'>
           <p>&copy; 2024 Ernest Chris. All rights reserved.</p>
-          <div className='hidden flex flex-row gap-3'>
+          <div className='hidden md:flex md:flex-row gap-4'>
             <p>Terms of service</p>
             <p>Privacy policy</p>
             <p>Connect with me</p>
