@@ -24,7 +24,7 @@ export default function Footer() {
         <hr className='h-4 mt-[-16px] mx-6' />
 
         <div className='flex flex-row text-white md:flex-row mx-6 pb-8 justify-between'>
-          <p>&copy; 2024 Ernest Chris. All rights reserved.</p>
+          <p>&copy; 2024 Ernest Chris.</p>
           <div className='hidden md:flex md:flex-row gap-4'>
             <p>Terms of service</p>
             <p>Privacy policy</p>
