@@ -23,14 +23,14 @@ export default function Footer() {
       </div>
         <hr className='h-4 mt-[-16px] mx-6' />
 
-        <div className='flex flex-col text-white md:flex-row mx-6 pb-8 justify-between'>
+        <div className='flex flex-row text-white md:flex-row mx-6 pb-8 justify-between'>
           <p>&copy; 2024 Ernest Chris. All rights reserved.</p>
-          <div className='flex flex-row gap-3'>
+          <div className='hidden flex flex-row gap-3'>
             <p>Terms of service</p>
             <p>Privacy policy</p>
             <p>Connect with me</p>
           </div>
-            <p className='mt-2 bg-purple-700 rounded px-2 md:mt-0 w-[30%] md:w-[9.5%] cursor-pointer' onClick={()=> scrollTo(0,0)}>Back to top</p>
+            <p className='bg-purple-700 rounded px-1 cursor-pointer' onClick={()=> scrollTo(0,0)}>Go up</p>
         </div>
     </div>
   )
