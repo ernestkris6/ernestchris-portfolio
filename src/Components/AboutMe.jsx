@@ -15,12 +15,7 @@ export default function AboutMe() {
        <div className='flex justify-center pt-6 gap-4 pb-4'>
             <img className='hidden md:flex rounded-lg' src={profile} alt="" />
             <div className='w-full md:w-2/4 ml-2 mr-2'>
-               <p className='text-white'>I am a software developer and i develop websites user friendly and highly responsive and optimize websites. Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Mollitia repudiandae iusto quia 
-                earum doloremque quos, veritatis atque! Qui cupiditate 
-                fuga modi. Explicabo 
-                cum enim ipsam tenetur 
-                distinctio debitis saepe incidunt?</p> 
+               <p className='text-white'>I am a software developer and I develop websites user friendly and highly responsive user interface. With codes I bring your imaginations to life. If you can picture it I can capture it.</p> 
 
                 <div className='flex pt-12 gap-[20px] items-center cursor-pointer md:hover:translate-x-[30px] transition-all duration-500'>
                   <p className='min-w-[120px] text-medium font-bold'>HTML & CSS </p>
