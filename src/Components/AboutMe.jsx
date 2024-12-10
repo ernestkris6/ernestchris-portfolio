@@ -13,7 +13,7 @@ export default function AboutMe() {
         </div>
         {/* z-[-1] left-0 bottom-0 top-0 right-0 */}
        <div className='flex justify-center pt-6 gap-4 pb-4'>
-            <img className='hidden md:flex rounded-lg' src={} alt="" />
+            <img className='hidden md:flex rounded-lg' src={profile} alt="" />
             <div className='w-full md:w-2/4 ml-2 mr-2'>
                <p className='text-white md:text-medium lg:text-xl'>I develop responsive websites with quality user interface. With codes I bring your imaginations to life. If you can picture it I can capture it!!!</p> 
 
