@@ -3,7 +3,7 @@ import chris from '../assets/chris.png';
 import cross from '../assets/menu_close.svg';
 import bar from '../assets/menu_open.svg'
 import logo from '../assets/chris.png';
-import kris from '../assets/kris.jpg'
+
 
 export default function Navbar() {
 
