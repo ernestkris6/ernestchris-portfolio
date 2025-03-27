@@ -62,8 +62,9 @@ export default function GetInTouch() {
                     <p>ernestchris6@gmail.com</p>
                 </div>
                 <div  className='flex items-center gap-3 pt-2'>
-                    <img className='w-5 my-4' src={icon3} alt="" />
+                    <img className='w-5 my-4' src={icon3} alt="" /> 
                     <p>91B, Blue Street, Jakande Estate, Isolo Lagos.</p>
+                    
                 </div>
             </div>
             </div>

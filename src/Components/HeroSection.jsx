@@ -13,7 +13,7 @@ export default function HeroSection() {
         </div>
            <p className='text-white text-2xl font-bold md:text-3xl text-center'><span>Hi, I'm Ernest Christopher,</span> <br /> frontend developer based in Lagos, Nigeria.</p>
             <div className='text-white w-3/4 text-center md:w-2/4 mx-auto py-6'>
-                <p className='text-white'>I love to work with codes to bring UI/UX Designs to life, ensuring a robust, fascinating and scalable UI, which results in an overwhelming UX for potential clients. </p>
+                <p className='text-white'>I love to work with codes to bring UI/UX Designs to life, ensuring a robust, fascinating and scalable UI - this results in an overwhelming User eXperience for potential clients. </p>
             </div>
     </section>
   )

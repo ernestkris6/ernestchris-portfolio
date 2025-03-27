@@ -17,7 +17,8 @@ export default function Navbar() {
   return (
     <nav className='flex justify-between items-center py-6 mb-5 mx-2 sm:mx-[10%]'>
         <div>
-            <img className='w-32 h-12 md:w-44 cursor-pointer' src={chris} alt="kris img" />
+          <h1 className='text-white font-bold text-4xl'>DevFolio.</h1>
+            {/* <img className='w-32 h-12 md:w-44 cursor-pointer' src={chris} alt="kris img" /> */}
         </div>
             <ul className='hidden lg:flex flex justify-around gap-8 cursor-pointer'>
                 <a href="/" className='text-white hover:text-purple-500'>HOME</a>
