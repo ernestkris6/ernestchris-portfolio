@@ -16,8 +16,12 @@ export default function AboutMe() {
        <div className='flex justify-center pt-6 gap-4 pb-4'>
             <img className='hidden md:flex rounded-lg' src={krisnew3} alt="" />
             <div className='w-full md:w-2/4 ml-2 mr-2'>
-               <p className='text-white md:text-medium lg:text-xl'>I develop responsive websites with quality user interface. With codes I bring your imaginations to life. If you can picture it I can capture it!!!</p> 
+               <p className='text-white md:text-medium lg:text-xl'></p> 
+               <p>I am a software engineer with extensive knowledge in website design and development. Creating 
+                  robust scalable and responsive user interfaces to meet clients' specification with exceptional 
+                  results for web applications. </p>
 
+{/* I develop responsive websites with quality user interface. With codes I bring your imaginations to life. If you can picture it I can capture it!!! */}
                 <div className='flex pt-12 gap-[20px] items-center cursor-pointer md:hover:translate-x-[30px] transition-all duration-500'>
                   <p className='min-w-[120px] text-medium font-bold'>HTML & CSS </p>
                   <hr className='w-[50%] md:w-[90%] outline-none border-none rounded-lg h-1 bg-gradient-to-r from-red-500 via-orange-500 to-purple-500' />

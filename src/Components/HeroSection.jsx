@@ -11,12 +11,14 @@ export default function HeroSection() {
         <div className='flex m-auto justify-center items-center py-8'>
             <img className='rounded-xl w-72' src={chrispix3} alt="" />
         </div>
-           <p className='text-white text-2xl font-bold md:text-3xl text-center'><span>I'm Ernest Christopher,</span> <br /> frontend developer based in Lagos, Nigeria.</p>
+           <p className='text-white text-2xl font-bold md:text-3xl text-center'><span>Hi, I'm Ernest Christopher,</span> <br /> frontend developer based in Lagos, Nigeria.</p>
             <div className='text-white w-3/4 text-center md:w-2/4 mx-auto py-6'>
-                <p className='text-white'>I am a frontend developer based in Nigeria with 3 years experience in frontend web development using react and wordpress.</p>
+                <p className='text-white'>I love to work with codes to bring UI/UX Designs to life, ensuring a robust, fascinating and scalable UI, which results in an overwhelming UX for potential clients. </p>
             </div>
     </section>
   )
 }
 
+
+// I am a frontend developer based in Nigeria with 3 years experience in frontend web development using react and wordpress.
 
