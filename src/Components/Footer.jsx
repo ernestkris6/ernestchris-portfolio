@@ -1,4 +1,3 @@
-import React from 'react'
 import logo from '../assets/chris.png'
 import Button from '../Common/Button';
 
@@ -8,7 +7,7 @@ export default function Footer() {
       <div className='flex justify-between'>
         <div className='flex flex-col mb-6'>
         <img className='h-12 w-24 md:w-32 mt-2 ml-6 mb-2' src={logo} alt="" />
-         <p className='mx-6 text-white'>Lorem ipsum dolor, sit <br/> amet consectetur adipisicing elit. Quam esse vitae rem,</p>
+         <p className='mx-6 text-white'>Building solutions, one line at a time, <br/>making your vision my code.</p>
 
           <div className='px-6'>
             <form className=''>
@@ -24,7 +23,7 @@ export default function Footer() {
         <hr className='h-4 mt-[-16px] mx-6' />
 
         <div className='flex flex-row text-white md:flex-row mx-6 pb-8 justify-between'>
-          <p>&copy; 2024 Ernest Chris.</p>
+          <p>&copy; 2025 Ernest Chris.</p>
           <div className='hidden md:flex md:flex-row gap-4'>
             <p>Terms of service</p>
             <p>Privacy policy</p>
