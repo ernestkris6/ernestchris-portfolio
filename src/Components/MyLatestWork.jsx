@@ -1,4 +1,3 @@
-import React from 'react'
 // import servicesData from '../data'
 import Button from '../Common/Button'
 import mywork_data from '../works'
@@ -21,7 +20,11 @@ export default function MyLatestWork() {
             ))}
         </div>
         <div className='text-center pb-8'>
-            <Button className='border rounded-full mt-8 px-8 py-3 text-white items-center justify-center hover:bg-white/40 hover:transition-all duration-500 hover:scale-105'>Show More</Button>
+            <a href="https://web.facebook.com/ernest.chris.503"
+               target='_blank'
+            >
+                    <Button className='border rounded-full mt-8 px-8 py-3 text-white items-center justify-center hover:bg-white/40 hover:transition-all duration-500 hover:scale-105'>Show More</Button>
+             </a>              
         </div>
     </div>
         
