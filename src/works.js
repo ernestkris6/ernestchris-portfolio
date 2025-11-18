@@ -1,41 +1,47 @@
-import project1_img from './assets/project_1.svg'
-import project2_img from './assets/project_2.svg'
-import project3_img from './assets/project_3.svg'
-import project4_img from './assets/project_4.svg'
-import project5_img from './assets/project_5.svg'
-import project6_img from './assets/project_6.svg'
+import project1_img from './assets/prj11.jpg'
+import project2_img from './assets/prj2.jpg'
+import project3_img from './assets/prj3.jpg'
+import project4_img from './assets/prj4.jpg'
+import project5_img from './assets/prj5.jpg'
+import project6_img from './assets/glam.jpg'
 
 
 const mywork_data = [
     {
     no:1,
-    name:"Web design",
-    img:project1_img
+    name:"Fast React Pizza",
+    img:project1_img,
+    url: 'https://fast-react-pizza-alpha-sandy.vercel.app',
     },
     {
     no:2,
-    name:"Web design",
-    img:project2_img
+    name:"The Wild Oasis",
+    img:project2_img,
+    url: 'https://the-wild-oasis-six-pink.vercel.app',
     },
     {
     no:3,
-    name:"Web design",
-    img:project3_img
+    name:"World Wise",
+    img:project3_img,
+    url: '',
     },
     {
     no:4,
-    name:"Web design",
-    img:project4_img
+    name:"The React Quiz",
+    img:project4_img,
+    url: '',
     },
     {
     no:5,
-    name:"Web design",
-    img:project5_img
+    name:"Prescripto",
+    img:project5_img,
+    url: 'https://prescripto-s.vercel.app',
     },
     {
     no:6,
-    name:"Web design",
-    img:project6_img
+    name:"Glam by La Sauce",
+    img:project6_img,
+    url: 'https://glam-by-la-sauce.vercel.app',
     },
 ]
  
